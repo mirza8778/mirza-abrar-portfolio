@@ -197,7 +197,7 @@ export default function Home() {
             href="#top"
             className="shrink-0 font-mono text-xl font-bold tracking-tight"
           >
-            ~/ <span className="text-[#5145e5]">mirza</span>.dev
+            mirza-abrar<span className="text-[#5145e5]">.Ops</span>
           </a>
 
           <div className="hidden items-center gap-7 text-sm font-medium text-gray-600 xl:flex">
@@ -880,7 +880,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-[1500px] flex-col gap-6 px-6 py-9 sm:flex-row sm:items-center sm:justify-between lg:px-12">
           <div>
             <a href="#top" className="font-mono text-lg font-bold">
-              ~/ <span className="text-[#5145e5]">mirza</span>.dev
+              mirza-abrar<span className="text-[#5145e5]">.Ops</span>
             </a>
             <p className="mt-2 text-xs text-gray-500">
               Technical Operations · DevOps · SRE
