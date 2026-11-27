@@ -1,3 +1,4 @@
+import { experienceYears } from "@/lib/experience";
 export const profile = {
   name: "Mirza Abrar Baig",
   email: "mirzaabrarbaig98@gmail.com",
@@ -8,7 +9,7 @@ export const profile = {
 };
 
 export const stats = [
-  { value: "3.8+", label: "Years of experience" },
+  { value: experienceYears(), label: "Years of experience" },
   { value: "3", label: "Cloud platforms" },
   { value: "24×7", label: "Production operations" },
   { value: "4", label: "Professional credentials" },
