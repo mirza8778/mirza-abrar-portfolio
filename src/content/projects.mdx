@@ -1,0 +1,24 @@
+---
+title: Projects
+---
+
+# Selected work
+
+## Terraform Modules
+
+A repository of reusable Terraform infrastructure modules, promoting modular design, repeatability and Infrastructure as Code practices. It covers GCP, AWS, Azure, Cloudflare, GitHub, Snowflake, STACKIT and Hetzner.
+
+| Modules | Files | License |
+| --- | --- | --- |
+| 257+ | 1,277+ | MIT |
+
+```hcl filename="main.tf"
+# Illustrative example
+module "cloud_infrastructure" {
+  source      = "./modules/cloud"
+  environment = "production"
+  managed_by  = "terraform"
+}
+```
+
+[Explore the repository](https://github.com/mirza8778/terraform-modules)
