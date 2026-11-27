@@ -41,9 +41,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
           docsRepositoryBase="https://github.com/mirza8778/mirza-abrar-portfolio/tree/main"
           editLink={null}
           feedback={{ content: null }}
-          sidebar={{ defaultMenuCollapseLevel: 0, toggleButton: false }}
-        >
-          {children}
+        
         </Layout>
       </body>
     </html>
