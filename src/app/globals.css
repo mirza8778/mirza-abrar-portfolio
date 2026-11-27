@@ -38,3 +38,82 @@
 
 @keyframes mz-in { from { opacity: 0; transform: translateY(8px); } }
 @media (prefers-reduced-motion: reduce) { .mz-line { animation: none; } .mz-card, .mz-button { transition: none; } }
+.mz-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.mz-contact-card {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  border-radius: 12px;
+  color: inherit;
+  text-decoration: none !important;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+a.mz-contact-card:hover {
+  transform: translateY(-2px);
+  border-color: hsl(244 75% 60%);
+  box-shadow: 0 6px 18px rgba(99, 102, 241, 0.18);
+}
+
+.mz-contact-icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background: rgba(99, 102, 241, 0.12);
+}
+
+.mz-contact-label {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+
+.mz-contact-value {
+  display: block;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.mz-qr-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  padding: 1.2rem 1.4rem;
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  border-radius: 12px;
+}
+
+.mz-qr-img {
+  height: auto;
+  border-radius: 10px;
+  background: #fff;
+  padding: 8px;
+}
+
+.mz-qr-title {
+  margin: 0.2rem 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.mz-qr-text {
+  margin: 0;
+  max-width: 28rem;
+  opacity: 0.75;
+}
